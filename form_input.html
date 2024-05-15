@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form and Input HTML</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    <form action="#" method="get"
+    target="_blank" autocomplete="off">
+        <h1>Form</h1>
+        <p>
+            <label for="input1">Type your name:</label>
+            <input type="text" id="input1"
+            name="input1" placeholder="Type here">
+        </p>
+
+        <p>
+            <label for="dev">Am I a Dev?</label>
+            <input type="checkbox" id="dev"
+            name="dev" value="yes"><br>
+
+            <label for="dev2">I Am a Dev2?</label>
+            <input type="checkbox" id="dev2"
+            name="dev2" value="yes">
+        </p>
+
+        <p>
+            <label for="female">Female</label>
+            <input type="radio" id="female"
+            name="gender" value="female"><br>
+
+            <label for="male">Male</label>
+            <input type="radio" id="male"
+            name="gender" value="male">
+        </p>
+
+        <p>
+            <label for="date">Date:</label>
+            <input type="date" id="date"
+            name="date" value="2024-05-09">
+        </p>
+
+        <p>
+            <label for="datetime">Datetime:</label>
+            <input type="datetime-local" id="datetime"
+            name="datetime" value="2024-05-09T11:02">
+        </p>
+
+        <p>
+            <label for="color">Favorite Color:</label>
+            <input type="color" id="color"
+            name="color" value="#00FF7F">
+        </p>
+
+        <p>
+            <label for="email">Email:</label>
+            <input type="email" id="email"
+            name="email" placeholder="ex.:'igor@email.com'">
+        </p>
+
+        <p>
+            <label for="picture">File:</label>
+            <input type="file" id="picture"
+            name="picture" accept=".png,.svg,image/*" multiple>
+        </p>
+
+        <p>
+            <label for="number">Number:</label>
+            <input type="number" id="number"
+            name="number" min="7" max="77" step="2">
+        </p>
+
+        <p>
+            <label for="password">Password:</label>
+            <input type="password" id="password"
+            name="password" placeholder="Type your password">
+        </p>
+
+        <p>
+            <label for="url">URL:</label>
+            <input type="url" id="url"
+            name="url" placeholder="URL">
+        </p>
+
+        <p>
+            <label for="select">Select:</label>
+            <select id="select" name="select">
+                <option value="1">Option 1</option>
+                <option value="2">Option 2</option>
+                <option value="3">Option 3</option>
+                <option value="4">Option 4</option>
+            </select>
+        </p>
+
+        <p>
+            <label for="textarea" style="display: block;">Textarea:</label>
+            <textarea id="textarea" name="textarea"
+            rows="15" cols="30">
+                Insert Text
+            </textarea>
+        </p>
+
+        <p>
+            <button type="reset">Reset</button>
+            <button type="submit">Submit</button>
+        </p>
+    </form>
+</body>
+</html>

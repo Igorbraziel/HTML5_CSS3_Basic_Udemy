@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML TABLES</title>
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+        table {
+            border-collapse: collapse;
+            font-size: 20px;
+        }
+
+        table th, table td{
+            border: 5px solid gray;
+            padding: 10px 35px;
+            text-align: left;
+        }
+
+        table caption{
+            caption-side: bottom;
+            text-align: right;
+            font-style: italic;
+            font-size: 15px;
+            margin: 5px 5px;
+        }
+
+        table tfoot td{
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+    </p>
+    <table>
+        <caption>A Description for the Table</caption>
+        <thead>
+            <tr>
+                <th>Title 1</th>
+                <th>Title 2</th>
+                <th>Title 3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Body 1</td>
+                <td>Body 2</td>
+                <td>Body 3</td>
+            </tr>
+            <tr>
+                <td>Body 1</td>
+                <td>Body 2</td>
+                <td>Body 3</td>
+            </tr>
+            <tr>
+                <td>Body 1</td>
+                <td>Body 2</td>
+                <td>Body 3</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">Footer</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

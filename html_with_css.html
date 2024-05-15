@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML with CSS</title>
+    <style>
+
+        body {
+            background-image: url(https://files.tecnoblog.net/wp-content/uploads/2021/12/melhor-streaming-2021-netflix-1-700x394.jpg);
+            background-size: cover;
+            background-position: top center;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        #heading {
+            background-color: rgba(224, 7, 7, 0.7);
+        }
+
+        #heading div {
+            display: flex;
+            width: 90%;
+            justify-content: space-between;
+            margin: auto;
+        }
+
+        #heading .h1{
+            padding: 20px;
+            font-size: 20px;
+            text-transform: uppercase;
+        }
+
+        #heading a {
+            text-decoration: none;
+            color: white;
+            font-family: sans-serif;
+        }
+
+        #heading a.in{
+            background-color: black;
+            padding: 10px;
+            border-radius: 20px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <header id="heading">
+        <div>
+            <h1 class="h1">
+                <a href="#"> Netflix </a>
+            </h1>
+            <h2 class="h1">
+                <a href="#" class="in"> Entrar </a>
+            </h2>
+        </div>
+    </header>
+</body>
+</html>
