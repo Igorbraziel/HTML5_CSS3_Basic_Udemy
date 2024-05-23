@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 40px;
+}
+
+.grid {
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: [one] 1fr [two] 1fr [three] 1fr [four];
+    margin: 0 auto;
+    grid-gap: 30px;
+}
+
+.grid-element {
+    background-color: tomato;
+    min-height: 100px;
+}
+
+.grid-element:nth-child(5) {
+    background-color: darkred;
+    grid-column: two / four;
+}
